@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ode SYSTEM "content.dtd">
+<ode xmlns="http://www.intef.es/xsd/ode" version="2.0">
+<userPreferences>
+  <userPreference>
+    <key>theme</key>
+    <value>neo</value>
+  </userPreference>
+</userPreferences>
+<odeResources>
+  <odeResource>
+    <key>odeId</key>
+    <value>20260601184236TZLNHE</value>
+  </odeResource>
+  <odeResource>
+    <key>odeVersionId</key>
+    <value>20260601184236STTFJ0</value>
+  </odeResource>
+  <odeResource>
+    <key>exe_version</key>
+    <value>4.0.1</value>
+  </odeResource>
+</odeResources>
+<odeProperties>
+  <odeProperty>
+    <key>pp_title</key>
+    <value>Superhéroes al Rescate:</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_subtitle</key>
+    <value>Nuestra Aventura Digital por el Medio Ambiente</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_author</key>
+    <value>Sabina Illescas Sánchez</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_description</key>
+    <value>Propuesta pedagógica diseñada para el alumnado de Formación Básica Obligatoria (FBO), con nivel cognitivo de primer y segundo ciclo de infantil, que presentan necesidades educativas especiales (NEE) diversas como TEA, TDAH, epilepsia, patologías motóricas graves o parálisis cerebral.</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_lang</key>
+    <value>en</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_license</key>
+    <value>creative commons: attribution - share alike 4.0</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_licenseUrl</key>
+    <value>https://creativecommons.org/licenses/by-sa/4.0/</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_theme</key>
+    <value>neo</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_exelearning_version</key>
+    <value>v4.0.1</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_modified</key>
+    <value>1781108561687</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addExeLink</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addPagination</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addSearchBox</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addAccessibilityToolbar</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_addMathJax</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>exportSource</key>
+    <value>true</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_globalFont</key>
+    <value>andika</value>
+  </odeProperty>
+  <odeProperty>
+    <key>pp_extraHeadContent</key>
+    <value>&lt;!-- Metadatos Dublin Core y SEO --&gt;
+&lt;meta name=&quot;title&quot; content=&quot;Superhéroes al Rescate: Nuestra Aventura Digital por el Medio Ambiente&quot;&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Sabina Illescas Sánchez&quot;&gt;
+&lt;meta name=&quot;description&quot; content=&quot;SdA para FBO centrada en la creación de un corto sobre reciclaje y sostenibilidad en el Parque de las Norias de Daza.&quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;Reciclaje, Superhéroes, Educación Especial, FBO, DUA, SAAC, eXeLearning&quot;&gt;
+
+&lt;!-- Estilos personalizados para mejorar la estética visual (DUA) --&gt;
+&lt;style&gt;
+    /* Bordes redondeados y colores vivos para los iDevices */
+    .iDevice_wrapper {
+        border-radius: 20px;
+        border: 3px solid #4CAF50; /* Verde medio ambiente */
+        overflow: hidden;
+        margin-bottom: 25px;
+    }
+    /* Mejora de la navegación para que sea más clara (Nivel cognitivo infantil) */
+    #siteNav a {
+        font-weight: bold;
+        color: #1a237e; /* Azul superhéroe */
+    }
+    /* Resaltado de títulos de tareas */
+    .iDeviceTitle {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+&lt;/style&gt;</value>
+  </odeProperty>
+  <odeProperty>
+    <key>footer</key>
+    <value>&lt;div style=&quot;text-align: center; padding: 20px; background-color: #f9f9f9; border-top: 2px solid #2e7d32; margin-top: 40px;&quot;&gt;
+    &lt;p style=&quot;margin-bottom: 5px;&quot;&gt;&lt;strong&gt;Superhéroes al Rescate: Nuestra Aventura Digital por el Medio Ambiente&lt;/strong&gt;&lt;/p&gt;
+    &lt;p style=&quot;margin-bottom: 15px;&quot;&gt;Autor: &lt;strong&gt;Sabina Illescas Sánchez&lt;/strong&gt; | CEEE Luz de Poniente (Las Norias de Daza)&lt;/p&gt;
+    
+    &lt;!-- Bloque de Licencia Creative Commons CC BY-SA 4.0 --&gt;
+    &lt;div style=&quot;display: inline-block; text-align: center;&quot;&gt;
+        &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; target=&quot;_blank&quot;&gt;
+            &lt;img alt=&quot;Licencia de Creative Commons&quot; style=&quot;border-width:0; margin-bottom: 10px;&quot; src=&quot;https://i.creativecommons.org/l/by-sa/4.0/88x31.png&quot; /&gt;
+        &lt;/a&gt;
+        &lt;br /&gt;
+        &lt;span style=&quot;font-size: 0.85em;&quot;&gt;Esta obra está bajo una 
+            &lt;a rel=&quot;license&quot; href=&quot;http://creativecommons.org/licenses/by-sa/4.0/&quot; target=&quot;_blank&quot;&gt;
+            Licencia Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional&lt;/a&gt;.
+        &lt;/span&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</value>
+  </odeProperty>
+</odeProperties>
+<odeNavStructures>
+<odeNavStructure>
+  <odePageId>page-mptyfp8b-clgbjywin</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Nuestra aventura digital por el medioambiente</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Nuestra aventura digital por el medioambiente</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Página nueva</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Nuestra aventura digital por el medioambiente</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8b-clgbjywin</odePageId>
+      <odeBlockId>block-1779904443883-9jjfads5c</odeBlockId>
+      <blockName>Galería de imágenes</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8b-clgbjywin</odePageId>
+          <odeBlockId>block-1779904443883-9jjfads5c</odeBlockId>
+          <odeIdeviceId>idevice-1779904443881-eah2o357m</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1779904443881-eah2o357m" title="" href="{{context_path}}/content/resources/Gemini_Generated_Image_fco9opfco9opfco9.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Gemini_Generated_Image_fco9opfco9opfco9.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779904443881-eah2o357m","img_0":{"img":"{{context_path}}/content/resources/Gemini_Generated_Image_fco9opfco9opfco9.png","thumbnail":"{{context_path}}/content/resources/Gemini_Generated_Image_fco9opfco9opfco9.png","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8b-clgbjywin</odePageId>
+      <odeBlockId>block-1779905072274-cvpx3q6d5</odeBlockId>
+      <blockName>Descripción</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8b-clgbjywin</odePageId>
+          <odeBlockId>block-1779905072274-cvpx3q6d5</odeBlockId>
+          <odeIdeviceId>idevice-1779905072273-ovnut8bkd</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>El alumnado del CEEE Luz de Poniente se enfrenta a un nuevo reto: salvar la vida de un parque cercano  que agoniza en la localidad de Las Norias de Daza. ¿Crees que podrán conseguirlo?</p>
+<p></p>
+<p>¡Sigue la pista de nuestro proyecto y lo descubrirás!</p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779905072273-ovnut8bkd","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>El alumnado del CEEE Luz de Poniente se enfrenta a un nuevo reto: salvar la vida de un parque cercano  que agoniza en la localidad de Las Norias de Daza. ¿Crees que podrán conseguirlo?</p>\n<p></p>\n<p>¡Sigue la pista de nuestro proyecto y lo descubrirás!</p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+  <odeParentPageId>page-mptyfp8b-clgbjywin</odeParentPageId>
+  <pageName>Justificación del proyecto</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Justificación del proyecto</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Justificación del proyecto</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+      <odeBlockId>block-1779906521221-iozgi0jir</odeBlockId>
+      <blockName>Tarjeta de identificación</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+          <odeBlockId>block-1779906521221-iozgi0jir</odeBlockId>
+          <odeIdeviceId>idevice-1779906521219-p6ftdftjz</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>🎯 Centro de Interés: La sostenibilidad, el reciclaje y el cuidado del entorno cercano (Parque de las Norias de Daza).</p>
+<p>🧑‍🤝‍🧑 Alumnado: Formación Básica Obligatoria (FBO), de 9 a 12 años. Diversidad funcional: TEA, TDAH, Parálisis Cerebral.</p>
+<p>📅 Temporalización: Tercer trimestre del curso escolar.</p>
+<p><br /></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779906521219-p6ftdftjz","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>🎯 Centro de Interés: La sostenibilidad, el reciclaje y el cuidado del entorno cercano (Parque de las Norias de Daza).</p>\n<p>🧑‍🤝‍🧑 Alumnado: Formación Básica Obligatoria (FBO), de 9 a 12 años. Diversidad funcional: TEA, TDAH, Parálisis Cerebral.</p>\n<p>📅 Temporalización: Tercer trimestre del curso escolar.</p>\n<p><br /></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+      <odeBlockId>block-1779906981623-oanvaskv1</odeBlockId>
+      <blockName>Ámbitos conectados</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+          <odeBlockId>block-1779906981623-oanvaskv1</odeBlockId>
+          <odeIdeviceId>idevice-1779906981621-sr2akf91n</odeIdeviceId>
+          <odeIdeviceTypeName>udl-content</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-udlContent exe-udlContent-engagement"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2 style="display:none;">🗣️💬Comunicación y Representación</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Expresión a través del cortometraje, uso de Sistemas de Comunicación Aumentativa y Alternativa (SAAC) para los diálogos y diseño de guiones en pizarra digital.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2 style="display:none;">🧘‍♂️✨Crecimiento en Armonía</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Autorregulación, trabajo en equipo, gestión de las emociones durante el rodaje y desarrollo de la autonomía en entornos reales.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2 style="display:none;">🔍🌳Descubrimiento del Entorno</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Intervención directa en el Parque de las Norias de Daza, concienciación sobre el reciclaje y uso de la tecnología para registrar el cuidado del medio ambiente.</p></div></div></section></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+      <odeBlockId>block-1779907492447-b7qa9o3au</odeBlockId>
+      <blockName>Propuesta Pedagógica</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+          <odeBlockId>block-1779907492447-b7qa9o3au</odeBlockId>
+          <odeIdeviceId>idevice-1779907492446-9z840nney</odeIdeviceId>
+          <odeIdeviceTypeName>casestudy</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-casestudy-container">
+  
+        <div class="caseStudyContent">            
+            <div class="CSP-Info mb-3">
+                
+            <dl>
+                <div class="inline"><dt><span title=""></span></dt><dd></dd></div>
+                <div class="inline"><dt><span title=""></span></dt><dd></dd></div>
+            </dl>
+            </div>
+            <div class="CSP-History mb-3" >
+                <p>🎬 ¿En qué consiste la aventura? El alumnado deja de ser un consumidor pasivo de pantallas para convertirse en creador audiovisual y motor de cambio social. </p>
+            </div>
+            <div class="CSP-Activities mb-3">
+                
+                <div class="CSP-ActivityDiv ">
+                    <div class="CSP-Activity mb-3">
+                        <p>A través de la narrativa de superhéroes:</p>
+<p>- Planificarán una historia y sus tomas,</p>
+<p>- Interactuarán mediante SAAC y/o comunicación oral,</p>
+<p>- Se desplazarán y conocerán su entorno.</p>
+<p>- Se desarrollarán tanto la psicomotricidad gruesa como fina</p>
+<p>- Grabarán un cortometraje real sobre el reciclaje en su entorno.</p>
+<p></p>
+<p>Para que finalmente, el proyecto culmine con un estreno en el salón de actos de El ejido, abriendo el aula específica a la comunidad.</p>
+                    </div>
+                    
+                    <div class="CSP-FeedbackText feedback js-feedback js-hidden" style="display: none;">
+                        
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    
+</div>
+]]></htmlView>
+          <jsonProperties><![CDATA[{"id":"idevice-1779907492446-9z840nney","typeGame":"Case study","history":"<p>🎬 ¿En qué consiste la aventura? El alumnado deja de ser un consumidor pasivo de pantallas para convertirse en creador audiovisual y motor de cambio social. </p>","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","activities":[{"activity":"<p>A través de la narrativa de superhéroes:</p>\n<p>- Planificarán una historia y sus tomas,</p>\n<p>- Interactuarán mediante SAAC y/o comunicación oral,</p>\n<p>- Se desplazarán y conocerán su entorno.</p>\n<p>- Se desarrollarán tanto la psicomotricidad gruesa como fina</p>\n<p>- Grabarán un cortometraje real sobre el reciclaje en su entorno.</p>\n<p></p>\n<p>Para que finalmente, el proyecto culmine con un estreno en el salón de actos de El ejido, abriendo el aula específica a la comunidad.</p>","feedback":"","buttonCaption":"Mostrar retroalimentación"}]}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+      <odeBlockId>block-1779908185097-7kzimx1is</odeBlockId>
+      <blockName>Objetivos Principales</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>3</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8e-e25lnm9bo</odePageId>
+          <odeBlockId>block-1779908185097-7kzimx1is</odeBlockId>
+          <odeIdeviceId>idevice-1779908185096-s6j8bq0bv</odeIdeviceId>
+          <odeIdeviceTypeName>udl-content</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-udlContent exe-udlContent-representation"><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2 style="display:none;">📱 De Consumidores a Creadores Activos</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Detectamos un uso intensivo e individual de las tablets (consumo pasivo de vídeos). Este proyecto transforma la intervención digital: la tecnología se convierte en una herramienta de inclusión y creación colectiva (grabación, edición y comunicación).</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2 style="display:none;">🧩 Estructura frente a la Incertidumbre (Enfoque TEACCH)</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Un rodaje puede romper rutinas. Para garantizar la seguridad emocional y la autorregulación (Disciplina Positiva), el proyecto integra agendas visuales y anticipaciones interactivas con Genially, reduciendo la ansiedad ante lo imprevisto.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2 style="display:none;">♻️ Eliminación de Barreras (DÚA):</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Aprovechando el Plan de Transformación Digital del centro, integramos pictogramas de ARASAAC para los diálogos y fichas interactivas en Liveworksheets. El nivel de idoneidad para eliminar barreras de acceso es Alto.</p></div></div></section><section class="exe-udlContent-block js-hidden"><header class="exe-udlContent-header"><h2 style="display:none;">🌍 Impacto Ético y Social:</h2></header><div class="exe-udlContent-content"><div class="exe-udlContent-content-main"><p>Demostramos que el alumnado con NEE graves no está limitado a tareas mecánicas; pueden interactuar con su entorno físico y digital de forma saludable, responsable y visible para su comunidad.</p></div></div></section></div>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mptyfp8f-uxvldf2ji</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Guía Didáctica</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Guía Didáctica</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Guía Didáctica</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value>Guía Didáctica</value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8f-uxvldf2ji</odePageId>
+      <odeBlockId>block-1780243364874-iylapp5ny</odeBlockId>
+      <blockName>Instrumentos de Evaluación</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8f-uxvldf2ji</odePageId>
+          <odeBlockId>block-1780243364874-iylapp5ny</odeBlockId>
+          <odeIdeviceId>idevice-1780243364873-zf1rukgot</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Para la evaluación de las tareas criteriales en el proyecto "Superhéroes al Rescate", se han seleccionado y adaptado diferentes instrumentos diseñados específicamente para el alumnado de FBO (Formación Básica Obligatoria) con un nivel cognitivo correspondiente al primer ciclo de infantil y Necesidades Educativas Especiales (NEE) muy diversas. </p>
+<p></p>
+<p>La integración de estos instrumentos en el entorno digital responde a los principios DUA (Diseño Universal para el Aprendizaje) y TEACCH , permitiendo evaluar tanto el desempeño procedimental en entornos físicos como la transición del consumo tecnológico pasivo hacia la creación digital activa (Resolución de Problemas Tecnológicos).</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p><img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 180543.png" title="Lista de cotejo: misión Héroes del reciclaje" width="637" height="333" alt="" /></p></div></div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780243364873-zf1rukgot","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<div class=\"exe-text-activity\"><p>Para la evaluación de las tareas criteriales en el proyecto \"Superhéroes al Rescate\", se han seleccionado y adaptado diferentes instrumentos diseñados específicamente para el alumnado de FBO (Formación Básica Obligatoria) con un nivel cognitivo correspondiente al primer ciclo de infantil y Necesidades Educativas Especiales (NEE) muy diversas. </p>\n<p></p>\n<p>La integración de estos instrumentos en el entorno digital responde a los principios DUA (Diseño Universal para el Aprendizaje) y TEACCH , permitiendo evaluar tanto el desempeño procedimental en entornos físicos como la transición del consumo tecnológico pasivo hacia la creación digital activa (Resolución de Problemas Tecnológicos).</p><div class=\"iDevice_buttons feedback-button js-required\"><input type=\"button\" class=\"feedbacktooglebutton\" value=\"Mostrar retroalimentación\" data-text-a=\"Mostrar retroalimentación\" data-text-b=\"Mostrar retroalimentación\"></div><div class=\"feedback js-feedback js-hidden\" style=\"display: none;\"><p><img src=\"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 180543.png\" title=\"Lista de cotejo: misión Héroes del reciclaje\" width=\"637\" height=\"333\" alt=\"\" /></p></div></div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":"<p><img src=\"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 180543.png\" title=\"Lista de cotejo: misión Héroes del reciclaje\" width=\"637\" height=\"333\" alt=\"\" /></p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8f-uxvldf2ji</odePageId>
+      <odeBlockId>block-1780243678156-ye0xqp7hl</odeBlockId>
+      <blockName>Diana de Evaluación Visual</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8f-uxvldf2ji</odePageId>
+          <odeBlockId>block-1780243678156-ye0xqp7hl</odeBlockId>
+          <odeIdeviceId>idevice-1780243678155-sdxka8v4i</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1780243678155-sdxka8v4i" title="" href="{{context_path}}/content/resources/Copia de Superhéroes al rescate.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Copia de Superhéroes al rescate.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780243678155-sdxka8v4i","img_0":{"img":"{{context_path}}/content/resources/Copia de Superhéroes al rescate.png","thumbnail":"{{context_path}}/content/resources/Copia de Superhéroes al rescate.png","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8f-uxvldf2ji</odePageId>
+      <odeBlockId>block-1780244119674-ddeiegsnc</odeBlockId>
+      <blockName>Registro de Progresos</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8f-uxvldf2ji</odePageId>
+          <odeBlockId>block-1780244119674-ddeiegsnc</odeBlockId>
+          <odeIdeviceId>idevice-1780244119673-0s09j3uk5</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <div class="exe-text-activity"><p>Evaluación de la transición del consumo pasivo de la tecnología hacia la creación digital activa.</p><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbacktooglebutton" value="Mostrar retroalimentación" data-text-a="Mostrar retroalimentación" data-text-b="Mostrar retroalimentación"></div><div class="feedback js-feedback js-hidden" style="display: none;"><p>Criterios de logro (Automatizados):<br />Excelente (EXC): usa la tablet para grabar escenas del corto de forma autónoma (100%).<br />Bueno (BUE): utiliza los SAAC digitales con apoyos que él mismo gestiona (80-90%).<br />Adecuado (ADE): participa en la edición en Canva con apoyo directo en algunos momentos (50-80%).<br />Regular (REG): identifica pictogramas de reciclaje en el Genially con apoyo directo constante.<br />Poco (POC): muestra resistencia al cese de contenidos pasivos (YouTube) para iniciar la tarea digital.<br /></p></div></div>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780244119673-0s09j3uk5","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<div class=\"exe-text-activity\"><p>Evaluación de la transición del consumo pasivo de la tecnología hacia la creación digital activa.</p><div class=\"iDevice_buttons feedback-button js-required\"><input type=\"button\" class=\"feedbacktooglebutton\" value=\"Mostrar retroalimentación\" data-text-a=\"Mostrar retroalimentación\" data-text-b=\"Mostrar retroalimentación\"></div><div class=\"feedback js-feedback js-hidden\" style=\"display: none;\"><p>Criterios de logro (Automatizados):<br />Excelente (EXC): usa la tablet para grabar escenas del corto de forma autónoma (100%).<br />Bueno (BUE): utiliza los SAAC digitales con apoyos que él mismo gestiona (80-90%).<br />Adecuado (ADE): participa en la edición en Canva con apoyo directo en algunos momentos (50-80%).<br />Regular (REG): identifica pictogramas de reciclaje en el Genially con apoyo directo constante.<br />Poco (POC): muestra resistencia al cese de contenidos pasivos (YouTube) para iniciar la tarea digital.<br /></p></div></div>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":"<p>Criterios de logro (Automatizados):<br />Excelente (EXC): usa la tablet para grabar escenas del corto de forma autónoma (100%).<br />Bueno (BUE): utiliza los SAAC digitales con apoyos que él mismo gestiona (80-90%).<br />Adecuado (ADE): participa en la edición en Canva con apoyo directo en algunos momentos (50-80%).<br />Regular (REG): identifica pictogramas de reciclaje en el Genially con apoyo directo constante.<br />Poco (POC): muestra resistencia al cese de contenidos pasivos (YouTube) para iniciar la tarea digital.<br /></p>"}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mptyfp8g-ikhxlhucb</odePageId>
+  <odeParentPageId>page-mptyfp8f-uxvldf2ji</odeParentPageId>
+  <pageName>Contenido</pageName>
+  <odeNavStructureOrder>0</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Contenido</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-ikhxlhucb</odePageId>
+      <odeBlockId>block-1780244450183-1ow286e8f</odeBlockId>
+      <blockName>Mapa de relación entre el contenido curricular</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-ikhxlhucb</odePageId>
+          <odeBlockId>block-1780244450183-1ow286e8f</odeBlockId>
+          <odeIdeviceId>idevice-1780244450181-l6yynaqmb</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1780244450181-l6yynaqmb" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182112.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182112.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1780244450181-l6yynaqmb" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182300.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182300.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_2" class="imageContainer"> <a idevice-id="idevice-1780244450181-l6yynaqmb" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182343.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182343.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780244450181-l6yynaqmb","img_0":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182112.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182112.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_1":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182300.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182300.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_2":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182343.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 182343.png","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mptyfp8g-05pab5e8g</odePageId>
+  <odeParentPageId>page-mptyfp8f-uxvldf2ji</odeParentPageId>
+  <pageName>Resolución de problemas</pageName>
+  <odeNavStructureOrder>1</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Resolución de problemas</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Resolución de problemas</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-05pab5e8g</odePageId>
+      <odeBlockId>block-1780244720226-qfa1n8y4u</odeBlockId>
+      <blockName>Gestión de las dificultades</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-05pab5e8g</odePageId>
+          <odeBlockId>block-1780244720226-qfa1n8y4u</odeBlockId>
+          <odeIdeviceId>idevice-1780244720225-5t3r5nvmp</odeIdeviceId>
+          <odeIdeviceTypeName>casestudy</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-casestudy-container">
+  
+        <div class="caseStudyContent">            
+            <div class="CSP-Info mb-3">
+                
+            <dl>
+                <div class="inline"><dt><span title=""></span></dt><dd></dd></div>
+                <div class="inline"><dt><span title=""></span></dt><dd></dd></div>
+            </dl>
+            </div>
+            <div class="CSP-History mb-3" >
+                <p>Presentaremos en primer lugar las problemáticas y en segundo lugar su resolución ordenada.</p>
+            </div>
+            <div class="CSP-Activities mb-3">
+                
+                <div class="CSP-ActivityDiv ">
+                    <div class="CSP-Activity mb-3">
+                        <p>A. Gestión Conductual ante la Tecnología (Estrategias TEACCH)<br /> El problema: La libre exploración tecnológica sin límites claros genera ansiedad alta, conductas disruptivas y dificulta reconducir los objetivos de aprendizaje.</p>
+<p>B. Logística y Coordinación de Recursos Limitados<br /> El problema: Centro de nueva creación con baja disponibilidad de dispositivos por aula.</p>
+<p> </p>
+<p>C. Caídas de Red o Problemas de Conectividad<br /> El problema: Interrupciones imprevistas en la conexión a internet durante el uso de plataformas en línea (Genially, Canva, etc.).</p>
+                    </div>
+                    
+                    <div class="iDevice_buttons feedback-button js-required">
+                        <input type="button" class="CSP-FeedbackBtn feedbacktooglebutton" value="Mostrar retroalimentación">
+                    </div>
+                    <div class="CSP-FeedbackText feedback js-feedback js-hidden" style="display: none;">
+                        <p>A. Gestión Conductual ante la Tecnología (Estrategias TEACCH)La solución técnica-pedagógica: El uso de la tecnología se integra siempre dentro de rutinas pautadas y estrictas en cuanto a duración, secuenciación y uso. Se minimiza la exploración libre no estructurada para reducir la frustración y asegurar el fin funcional de la tarea.</p>
+<p></p>
+<p>B. Logística y Coordinación de Recursos Limitados. La solución organizativa: Establecer un canal estricto de coordinación docente para la reserva de recursos compartidos. El protocolo exige verificar previamente el estado del hardware, la actualización de aplicaciones y realizar la carga sistemática de baterías antes del inicio de cualquier actividad.</p>
+<p></p>
+<p>C. Caídas de Red o Problemas de Conectividad. </p>
+<p>La solución (Plan B Analógico y Offline): * Descargar de manera anticipada los materiales y contenidos multimedia para su ejecución en modo local (offline).</p>
+<p>Disponer siempre de un Plan B Analógico/Manipulativo equivalente. Por ejemplo, realizar la Misión Reciclaje mediante el uso de pictogramas físicos impresos y materiales reales listos en el aula.</p>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    
+</div>
+]]></htmlView>
+          <jsonProperties><![CDATA[{"id":"idevice-1780244720225-5t3r5nvmp","typeGame":"Case study","history":"<p>Presentaremos en primer lugar las problemáticas y en segundo lugar su resolución ordenada.</p>","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","activities":[{"activity":"<p>A. Gestión Conductual ante la Tecnología (Estrategias TEACCH)<br /> El problema: La libre exploración tecnológica sin límites claros genera ansiedad alta, conductas disruptivas y dificulta reconducir los objetivos de aprendizaje.</p>\n<p>B. Logística y Coordinación de Recursos Limitados<br /> El problema: Centro de nueva creación con baja disponibilidad de dispositivos por aula.</p>\n<p> </p>\n<p>C. Caídas de Red o Problemas de Conectividad<br /> El problema: Interrupciones imprevistas en la conexión a internet durante el uso de plataformas en línea (Genially, Canva, etc.).</p>","feedback":"<p>A. Gestión Conductual ante la Tecnología (Estrategias TEACCH)La solución técnica-pedagógica: El uso de la tecnología se integra siempre dentro de rutinas pautadas y estrictas en cuanto a duración, secuenciación y uso. Se minimiza la exploración libre no estructurada para reducir la frustración y asegurar el fin funcional de la tarea.</p>\n<p></p>\n<p>B. Logística y Coordinación de Recursos Limitados. La solución organizativa: Establecer un canal estricto de coordinación docente para la reserva de recursos compartidos. El protocolo exige verificar previamente el estado del hardware, la actualización de aplicaciones y realizar la carga sistemática de baterías antes del inicio de cualquier actividad.</p>\n<p></p>\n<p>C. Caídas de Red o Problemas de Conectividad. </p>\n<p>La solución (Plan B Analógico y Offline): * Descargar de manera anticipada los materiales y contenidos multimedia para su ejecución en modo local (offline).</p>\n<p>Disponer siempre de un Plan B Analógico/Manipulativo equivalente. Por ejemplo, realizar la Misión Reciclaje mediante el uso de pictogramas físicos impresos y materiales reales listos en el aula.</p>","buttonCaption":"Mostrar retroalimentación"}]}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mptyfp8g-rmthidht7</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Nuestra mochila digital</pageName>
+  <odeNavStructureOrder>2</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Nuestra mochila digital</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Nuestra mochila digital</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-rmthidht7</odePageId>
+      <odeBlockId>block-1780245100612-cgu2z3ngx</odeBlockId>
+      <blockName>Padlet del profesorado</blockName>
+      <iconName>guide</iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-rmthidht7</odePageId>
+          <odeBlockId>block-1780245100612-cgu2z3ngx</odeBlockId>
+          <odeIdeviceId>idevice-1780245100611-8j7d9r0tc</odeIdeviceId>
+          <odeIdeviceTypeName>external-website</odeIdeviceTypeName>
+          <htmlView><![CDATA[      <div id="iframeWebsiteIdevice">       <iframe src="https://padlet.com/sillsan313/curacion-de-contenidos-actividades-de-aula-9no59ifah0khh4d1" size="4" width="600" height="800" style="width:100%;">      </iframe>      <div class="iframe-error-message" style="display:none;">No se puede mostrar un iframe en HTTP en una web HTTPS.</div>       </div>      ]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-rmthidht7</odePageId>
+      <odeBlockId>block-1780245180592-cbqpcemhq</odeBlockId>
+      <blockName>Symbaloo del alumnadoo</blockName>
+      <iconName>think_alt</iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-rmthidht7</odePageId>
+          <odeBlockId>block-1780245180592-cbqpcemhq</odeBlockId>
+          <odeIdeviceId>idevice-1780245180591-gg9ezjrpi</odeIdeviceId>
+          <odeIdeviceTypeName>external-website</odeIdeviceTypeName>
+          <htmlView><![CDATA[      <div id="iframeWebsiteIdevice">       <iframe src="https://www.symbaloo.com/shared/AAAAB0uQkVsAA42ASMjSRQ==" size="3" width="600" height="500" style="width:100%;">      </iframe>      <div class="iframe-error-message" style="display:none;">No se puede mostrar un iframe en HTTP en una web HTTPS.</div>       </div>      ]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mptyfp8g-3oemesdsw</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Adaptaciones</pageName>
+  <odeNavStructureOrder>3</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Adaptaciones</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Adaptaciones</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-3oemesdsw</odePageId>
+      <odeBlockId>block-1780245321693-0nk02m3ac</odeBlockId>
+      <blockName>Derechos y seguridad</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-3oemesdsw</odePageId>
+          <odeBlockId>block-1780245321693-0nk02m3ac</odeBlockId>
+          <odeIdeviceId>idevice-1780245321692-w7kx5255s</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1780245321692-w7kx5255s" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 183652.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 183652.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780245321692-w7kx5255s","img_0":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 183652.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 183652.png","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mptyfp8g-tyqtxl1rq</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>La misión paso a paso</pageName>
+  <odeNavStructureOrder>4</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>La misión paso a paso</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>La misión paso a paso</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-tyqtxl1rq</odePageId>
+      <odeBlockId>block-1780245709940-b8cfu8kiy</odeBlockId>
+      <blockName>Cronología visual del proyecto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-tyqtxl1rq</odePageId>
+          <odeBlockId>block-1780245709940-b8cfu8kiy</odeBlockId>
+          <odeIdeviceId>idevice-1780245709939-yj1lmy0d9</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 183937.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 183937.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_1" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184018.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184018.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_2" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184031.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184031.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_3" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184004.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184004.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_4" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184045.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184045.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_5" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184059.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184059.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_6" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184111.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184111.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_7" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184124.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184124.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div><div id="imageContainer_8" class="imageContainer"> <a idevice-id="idevice-1780245709939-yj1lmy0d9" title="" href="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184139.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184139.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780245709939-yj1lmy0d9","img_0":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 183937.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 183937.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_1":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184018.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184018.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_2":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184031.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184031.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_5":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184004.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184004.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_6":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184045.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184045.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_7":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184059.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184059.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_8":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184111.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184111.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_9":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184124.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184124.png","title":"","linktitle":"","author":"","linkauthor":"","license":""},"img_10":{"img":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184139.png","thumbnail":"{{context_path}}/content/resources/Captura de pantalla 2026-05-31 184139.png","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+<odeNavStructure>
+  <odePageId>page-mptyfp8g-c86fjtg5k</odePageId>
+  <odeParentPageId></odeParentPageId>
+  <pageName>Créditos</pageName>
+  <odeNavStructureOrder>5</odeNavStructureOrder>
+  <odeNavStructureProperties>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Créditos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>visibility</key>
+      <value>true</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>highlight</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>hidePageTitle</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>editableInPage</key>
+      <value>false</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titlePage</key>
+      <value>Créditos</value>
+    </odeNavStructureProperty>
+    <odeNavStructureProperty>
+      <key>titleNode</key>
+      <value></value>
+    </odeNavStructureProperty>
+  </odeNavStructureProperties>
+  <odePagStructures>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-c86fjtg5k</odePageId>
+      <odeBlockId>block-1779905716791-w20ams1zw</odeBlockId>
+      <blockName>Galería de imágenes</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>0</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-c86fjtg5k</odePageId>
+          <odeBlockId>block-1779905716791-w20ams1zw</odeBlockId>
+          <odeIdeviceId>idevice-1779905700657-t05am6yjk</odeIdeviceId>
+          <odeIdeviceTypeName>image-gallery</odeIdeviceTypeName>
+          <htmlView><![CDATA[<!-- Idevice Example template start -->
+<div class="exe-image-gallery-template">
+  <!-- Idevice content start -->
+  
+            <div class="imageGallery-IDevice">
+                <div class="imageGallery-body"><div id="imageContainer_0" class="imageContainer"> <a idevice-id="idevice-1779905700657-t05am6yjk" title="" href="{{context_path}}/content/resources/Gemini_Generated_Image_jr5jpyjr5jpyjr5j.png" class="imageLink">  <div class="imageElement">   <img src="{{context_path}}/content/resources/Gemini_Generated_Image_jr5jpyjr5jpyjr5j.png" height="128" width="128" title="" alt="" titlelink="" author="" authorlink="" license="" licenselink=""/>  </div> </a></div>
+                </div>
+            </div>
+  <!-- Idevice content end -->
+</div>
+<!-- Idevice Example template end -->]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1779905700657-t05am6yjk","img_0":{"img":"{{context_path}}/content/resources/Gemini_Generated_Image_jr5jpyjr5jpyjr5j.png","thumbnail":"{{context_path}}/content/resources/Gemini_Generated_Image_jr5jpyjr5jpyjr5j.png","title":"","linktitle":"","author":"","linkauthor":"","license":""}}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-c86fjtg5k</odePageId>
+      <odeBlockId>block-1780246326474-j5ct5wdor</odeBlockId>
+      <blockName>Texto</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>1</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-c86fjtg5k</odePageId>
+          <odeBlockId>block-1780246326474-j5ct5wdor</odeBlockId>
+          <odeIdeviceId>idevice-1780246326472-is7t7wo7p</odeIdeviceId>
+          <odeIdeviceTypeName>text</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-text-template">
+    <p>Autora del proyecto: Sabina Illescas Sánchez<br />Centro Educativo: CEEE Luz de Poniente (Almería)<br />Curso Académico: 2025/2026<br />Situación de Aprendizaje: "Superhéroes al Rescate: Nuestra Aventura Digital por el Medio Ambiente"<br />Nivel: Formación Básica Obligatoria (FBO)</p>
+<p> Enfoque DUA y Metodología TEACCH</p>
+<p></p>
+<p style="text-align: right;"><em>Este recurso educativo abierto está publicado bajo una licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0). (Esto significa que otros docentes pueden usar, adaptar y mejorar tu trabajo para sus aulas específicas de Educación Especial, siempre que te citen como autora y compartan el resultado bajo la misma licencia)</em></p>
+</div>]]></htmlView>
+          <jsonProperties><![CDATA[{"ideviceId":"idevice-1780246326472-is7t7wo7p","textInfoDurationInput":"","textInfoDurationTextInput":"Duración","textInfoParticipantsInput":"","textInfoParticipantsTextInput":"Agrupamiento","textTextarea":"<p>Autora del proyecto: Sabina Illescas Sánchez<br />Centro Educativo: CEEE Luz de Poniente (Almería)<br />Curso Académico: 2025/2026<br />Situación de Aprendizaje: \"Superhéroes al Rescate: Nuestra Aventura Digital por el Medio Ambiente\"<br />Nivel: Formación Básica Obligatoria (FBO)</p>\n<p> Enfoque DUA y Metodología TEACCH</p>\n<p></p>\n<p style=\"text-align: right;\"><em>Este recurso educativo abierto está publicado bajo una licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0). (Esto significa que otros docentes pueden usar, adaptar y mejorar tu trabajo para sus aulas específicas de Educación Especial, siempre que te citen como autora y compartan el resultado bajo la misma licencia)</em></p>","textFeedbackInput":"Mostrar retroalimentación","textFeedbackTextarea":""}]]></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+    <odePagStructure>
+      <odePageId>page-mptyfp8g-c86fjtg5k</odePageId>
+      <odeBlockId>block-1780246476400-qwlp1y2kq</odeBlockId>
+      <blockName>Descargar el archivo fuente</blockName>
+      <iconName></iconName>
+      <odePagStructureOrder>2</odePagStructureOrder>
+      <odePagStructureProperties>
+        <odePagStructureProperty>
+          <key>visibility</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>teacherOnly</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>allowToggle</key>
+          <value>true</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>minimized</key>
+          <value>false</value>
+        </odePagStructureProperty>
+        <odePagStructureProperty>
+          <key>cssClass</key>
+          <value></value>
+        </odePagStructureProperty>
+      </odePagStructureProperties>
+      <odeComponents>
+        <odeComponent>
+          <odePageId>page-mptyfp8g-c86fjtg5k</odePageId>
+          <odeBlockId>block-1780246476400-qwlp1y2kq</odeBlockId>
+          <odeIdeviceId>idevice-1780246476399-3hbrieut6</odeIdeviceId>
+          <odeIdeviceTypeName>download-source-file</odeIdeviceTypeName>
+          <htmlView><![CDATA[<div class="exe-download-package-instructions"><table class="exe-table exe-package-info"><caption>Información general sobre este recurso educativo</caption>
+<tbody>
+<tr>
+<th>Título</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-title">Superhéroes al Rescate:</span></td>
+</tr>
+<tr>
+<th>Descripción</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-description">Propuesta pedagógica diseñada para el alumnado de Formación Básica Obligatoria (FBO), con nivel cognitivo de primer y segundo ciclo de infantil, que presentan necesidades educativas especiales (NEE) diversas como TEA, TDAH, epilepsia, patologías motóricas graves o parálisis cerebral.</span></td>
+</tr>
+<tr>
+<th>Autoría</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-author">Sabina Illescas Sánchez</span></td>
+</tr>
+<tr>
+<th>Licencia</th>
+<td class="mceNonEditable exe-prop-locked"><span class="exe-prop-license">creative commons: attribution - share alike 4.0</span></td>
+</tr>
+</tbody>
+</table>
+<p style="text-align: center;">Este contenido fue creado con <a href="https://exelearning.net/">eXeLearning</a>, el editor libre y de fuente abierta diseñado para crear recursos educativos.</p></div><p class="exe-download-package-link"><a download="exe-package:elp-name" href="exe-package:elp" style="background-color:#4b898b;color:#ffffff;">Descargar el archivo .elpx</a></p>]]></htmlView>
+          <jsonProperties></jsonProperties>
+          <odeComponentsOrder>0</odeComponentsOrder>
+          <odeComponentsProperties>
+            <odeComponentsProperty>
+              <key>visibility</key>
+              <value>true</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>teacherOnly</key>
+              <value>false</value>
+            </odeComponentsProperty>
+            <odeComponentsProperty>
+              <key>cssClass</key>
+              <value></value>
+            </odeComponentsProperty>
+          </odeComponentsProperties>
+        </odeComponent>
+      </odeComponents>
+    </odePagStructure>
+  </odePagStructures>
+</odeNavStructure>
+</odeNavStructures>
+</ode>
